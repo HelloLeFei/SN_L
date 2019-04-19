@@ -67,13 +67,18 @@
 
 ******************************FW v5.7***************************************
 ①传感器里面添加独立校准陀螺仪设置
-   add gyro calibrate
 ②去除中文警告信息，以对应图标闪烁代替
-   remove alrm info , insteade of flash icon
 ③添加期望速度显示
-   add setPoint speed
 ④优化定高模式下的速度控制，定高定向模式下，油门始终根据期望的速度控制，打副翼摇杆油门依然有速度控制，不要在此模式下
 降落
-   change logic FixedRUD mode throttle control
 ⑤优化NTSC显示，将波形显示加入，优化AAT数据，目前NTSC仍然不支持AAT数据传输
 ⑥解决模式切换飞机姿态突变的问题，此问题在飞机机械位不平衡的时候尤其明显
+
+******************************FW v5.8***************************************
+①Add a new take-off mode, set the take-off speed to 0 in the RTH mode; push the throttle stick to unlock the motor, shake the aircraft, 
+throw the airplane after the motor starts, the airplane will climb to 30m and start to turn
+②repair some system problems, improve system stability, improve the stability of OSD
+③solve the problem of slow operation in the AltHold mode
+
+
+

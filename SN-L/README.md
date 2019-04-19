@@ -18,3 +18,4 @@ Why distinguish aat firmware?
 
 OSD superimposed AAT data will cause the OSD screen to shake. When purchasing AAT, we will attach a video conditioner to solve this problem.
 
+#if you want more info or have some problems connect us: LeFeiRC@163.com
