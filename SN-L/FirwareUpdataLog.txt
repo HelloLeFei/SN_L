@@ -80,5 +80,15 @@ throw the airplane after the motor starts, the airplane will climb to 30m and st
 ②repair some system problems, improve system stability, improve the stability of OSD
 ③solve the problem of slow operation in the AltHold mode
 
+****************************FW v6.0****************************************
+①修复空速计偏小的问题
+1 repair the problem of airspeed meter
+②将之前多种固件集合成一个固件
+2 combine multiple previous firmware into one firmware
+③添加速度比例因子，通过速度实时计算pid，速度越快pid越小
+3 Add the speed scale factor, calculate the pid in real time by speed, the faster the speed, the smaller the pid
+④OSD添加一些新特性，爬升率，左右手油门等
+4OSD adds some new features, climb rate, left and right hand throttle, etc.
+
 
 
