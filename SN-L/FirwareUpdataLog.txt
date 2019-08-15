@@ -90,5 +90,9 @@ throw the airplane after the motor starts, the airplane will climb to 30m and st
 ④OSD添加一些新特性，爬升率，左右手油门等
 4OSD adds some new features, climb rate, left and right hand throttle, etc.
 
+****************************FW v6.1****************************************
+① 修复英制切换导致数据显示不正常的问题
+   Fix bug： Unit switching causes partial data display to be abnormal  
+
 
 

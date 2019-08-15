@@ -78,9 +78,24 @@
 ①添加新的起飞方式， 回家模式下，将起飞速度设置为0； 油门摇杆上推解锁电机，抖动飞机，电机启动后抛出去，飞机会爬到30m后开始转弯
 ②修复部分系统问题，提高系统稳定性，提高OSD的稳定性
 ③解决定高模式下操作迟缓的问题
-④GPS经纬度显示，高度高于50m后自动关闭，这样做视频就不用打马赛克了
 
+******************************FW v5.9***************************************
+①添加地理围栏设置，最大半径，最大高度；详细参考说明书
+    Add geofence settings, maximum radius, maximum height; detailed reference manual
+②添加电流校准设置；添加电池设置，比如使用3S电池则设置为3S，报警电压改为单节电压设置，比如设置报警电压为3.2v
+   Add current calibration settings; add battery settings, such as 3S battery, set to 3S, alarm voltage to single voltage setting, such as setting alarm voltage to 3.2v
+④OSD 的时钟从起飞后开始计时，降落后停止计时
+   OSD's clock starts from the time of takeoff and stops timing after landing.
 
+****************************FW v6.0****************************************
+①修复空速计偏小的问题
+②将之前多种固件集合成一个固件
+③添加速度比例因子，通过速度实时计算pid，速度越快pid越小
+④OSD添加一些新特性，爬升率，左右手油门等
+
+****************************FW v6.0****************************************
+① 修复英制切换导致数据显示不正常的问题
+②修复抖动起飞模式BUG，低空回家模式电机停转的问题
 
 
 
