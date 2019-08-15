@@ -4,6 +4,8 @@ SN_L Flight Controller
 Download Firmware
 userManual
 
+##Starting with v6.0, no longer distinguish between firmware categories
+
 snFWx_aat_en.bin => if you have a SN-AAT product you should updata this fw;
 
 snFWx_en.bin     => if you do not have a SN-AAT product you should updata this fw;
