@@ -1,5 +1,0 @@
-1.    suport DJI OSD，connect  the RX of airunit to "T" port
-2.    support set channel direction of RC
-3.    make IMU more stable
-
-please make sure you upgrade IMU fw and FC fw to v4.0!!!! 

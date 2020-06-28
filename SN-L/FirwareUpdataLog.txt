@@ -93,6 +93,8 @@ throw the airplane after the motor starts, the airplane will climb to 30m and st
 ****************************FW v6.1****************************************
 ① 修复英制切换导致数据显示不正常的问题
    Fix bug： Unit switching causes partial data display to be abnormal  
-
+****************************FW v6.3****************************************
+① Optimized sensor filtering algorithm to improve seismic resistance
+②  FixBUG：  in althold mode, cant hold head 
 
 
