@@ -31,3 +31,16 @@ ATUO ANTENNA TRACK System
 3. support output mavlink, you can connect to QGround or MissionPlanner
 4. support connect GPS , you can move aat to any where
 5. support campasss 
+
+# *software*
+**SN_GCS_32bit_opengl.exe** : suport 32 bit computer(x86), Graphics card support OpenGL.
+
+**SN_GCS_64bit_opengl.exe** : suport 64 bit computer(x64), Graphics card support OpenGL.
+
+***IF THE ABOVE TWO SOFTWARE CANNOT WORK, PLEASE INSTALL THE FOLLOWING SOFTWARE.***
+
+A software version that does not support opnegl will be missing a 3D display part, but it can be used normally
+
+**SN_GCS_32bit.exe** : suport 32 bit computer(x86).
+
+**SN_GCS_64bit.exe** : suport 64 bit computer(x64).
