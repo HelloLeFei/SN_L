@@ -1,8 +1,5 @@
 # ***SN_NAVI***
 
-SN_NAVI FixedWing Flight Controller
-
-## FeatureList
 1. SUPORT CAN DEVICE 
 2. SUPORT SMART-AUDIO / IRC-TRAMP
 3. AUDIO ALRM
@@ -13,19 +10,25 @@ SN_NAVI FixedWing Flight Controller
 8. CUSTOM PIXEL OSD
 9. support MSP protocol when use DJI FPV system
 10. AirSpeed Meter
+11. support SN_GCS (windows and android APP) 
+12.  DJI air unit OSD support
 
 # *SN_L*
-SN_L FixedWing Flight COntroller
+SN_L FixedWing Flight Controller
 
-## FeatureList
-1. PIXEL OSD
-2. AAT(ATUO ANTENNA TRACK)
-3. AirSpeed Meter
+# *SN_L+*
+SN_L+ FixedWing Flight Controller
+
+1. 7 channels servo port
+2. DJI air unit OSD support
+3. smart audio and ircTramp
+4. tower pmu
+5. support SN_GCS (windows and android AP) 
+
 
 # *AAT*
 ATUO ANTENNA TRACK System
 
-## FeatureList
 1. support show flight info with a oled
 2. support work with mavlink portocol
 3. support output mavlink, you can connect to QGround or MissionPlanner
@@ -33,14 +36,4 @@ ATUO ANTENNA TRACK System
 5. support campasss 
 
 # *software*
-**SN_GCS_32bit_opengl.exe** : suport 32 bit computer(x86), Graphics card support OpenGL.
-
-**SN_GCS_64bit_opengl.exe** : suport 64 bit computer(x64), Graphics card support OpenGL.
-
-***IF THE ABOVE TWO SOFTWARE CANNOT WORK, PLEASE INSTALL THE FOLLOWING SOFTWARE.***
-
-A software version that does not support opnegl will be missing a 3D display part, but it can be used normally
-
-**SN_GCS_32bit.exe** : suport 32 bit computer(x86).
-
-**SN_GCS_64bit.exe** : suport 64 bit computer(x64).
+**SN_GCS.exe** 
